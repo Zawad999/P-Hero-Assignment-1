@@ -132,3 +132,76 @@
     background: none;
     border: 2px solid rgba(13, 19, 33, 0.7)
 }
+
+
+/* inspiration-section */
+.inspiration-section{
+    margin: 0px 150px 150px 150px;
+    text-align: center;
+}
+.inspiration-info{
+    margin: 0px 144px 48px 144px;
+}
+.inspiration-video{
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    border-radius: 16px;
+    padding: 32px;
+}
+.video{
+    border-radius: 16px;
+    width:100%;
+    aspect-ratio: 1.95;
+}
+
+/* support section style */
+.support-section{
+    margin: 0px 150px 80px 150px;
+}
+.support-content{
+    padding: 64px 48px;
+    text-align: center;
+    background-image: url("/assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.color-white{
+    color: white;
+}
+
+.support-title{
+    margin: 0px 300px;
+}
+
+.support-description{
+    margin: 0px 219px;
+}
+
+#text-area{
+    font-family: "Azeret Mono", monospace;
+    padding: 19px;
+    padding-left: 20px;
+    width: 548px;
+    border-radius: 8px;
+}
+.form input[type="submit"]{
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 1.00);
+    padding: 17px 20px;
+    border-radius: 8px;
+    font-weight: 600px;
+    font-size: 20px;
+}
