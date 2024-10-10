@@ -48,7 +48,7 @@ button:hover{
     padding: 26px 221px 45px;
 }
 .banner{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url("/assets/Hero-bg.png");
 }
 .banner-content{
     display: flex;
