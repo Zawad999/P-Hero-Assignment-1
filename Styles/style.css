@@ -5,6 +5,9 @@
   }
 
 /* shared style */
+button:hover{
+    cursor: pointer;
+}
 .text-center{
     text-align: center;
     
@@ -58,14 +61,16 @@
     font-weight: bolder;
     color: #0D1321;
 }
-
+.banner-description{
+    margin-bottom:30px;
+}
 .contact-me-btn{
     padding: 21px 24px;
     background-color: #0D1321;
     color: white;
     border-radius: 8px;
     font-weight: 600px;
-    margin-top: 30px;;
+    margin-top: 30px;
 }
 
 
