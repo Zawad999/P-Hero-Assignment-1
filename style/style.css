@@ -261,7 +261,7 @@ button:hover{
 .support-content{
     padding: 64px 48px;
     text-align: center;
-    background-image: url("/assets/handshake.jpg");
+    background-image: url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
