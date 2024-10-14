@@ -16,6 +16,7 @@ button:hover{
     font-size: 16px;
     font-weight: 400px;
     opacity: 0.7;
+    line-height: 26px;
 }
 .section-title{
     font-size: 32px;
@@ -60,6 +61,7 @@ button:hover{
     font-size: 48px;
     font-weight: bolder;
     color: #0D1321;
+    line-height: 68px;
 }
 .banner-description{
     margin-bottom:30px;
@@ -157,6 +159,100 @@ button:hover{
     width:100%;
     aspect-ratio: 1.95;
 }
+
+
+
+/* Shared style for current target and next target*/
+.target-section-description{
+    margin: 24px 144px 48px;
+}
+.current-target-section, .next-target-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.target-title{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.target-anchor-style{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+/* Target section */
+.target-section{
+    margin: 0px 150px 49px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.current-target-container{
+    margin-bottom: 111px;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    gap: 24px;
+    
+}
+
+.c-target{
+    padding: 40px;
+    text-align: left;
+    border-radius: 16px;
+}
+
+.c-target-img-container, .c-target p{
+    margin-bottom: 24px;
+    
+}
+
+.target-html{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.target-css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.target-js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+
+/* next target section style */
+.next-target-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.n-target{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:24px;
+    padding: 40px;
+    border: solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.tg-container{
+    padding-top: 20px;
+    justify-content: left;
+    align-items: center;
+}
+
+.n-target p{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+
+
+
 
 /* support section style */
 .support-section{
